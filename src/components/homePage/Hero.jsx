@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-white">
-      <div className="max-w-[800px] mt-[-95px] w-full h-screen text-center flex flex-col justify-center">
+    <div className="text-white flex justify-center item-center">
+      <div className="max-w-[800px] w-full h-[calc(100vh_-_96px)] text-center flex flex-col justify-center">
         <p className="text-[#00df9a] font-bold p-2 ">
           GROWING WITH DATA ANALYTICS
         </p>
@@ -26,7 +26,7 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for BTB, BTC, and SASS
           platforms
         </p>
-        <button className="bg-[#00df9a] w-[180px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+        <button className="bg-[#00df9a] w-[180px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:scale-105 duration-300">
           Get Started
         </button>
       </div>

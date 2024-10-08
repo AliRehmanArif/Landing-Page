@@ -1,7 +1,7 @@
 import React from 'react'
-import Single from '../components/assets/single.png'
-import Double from '../components/assets/double.png'
-import Triple from '../components/assets/triple.png'
+import Single from '../assets/single.png'
+import Double from '../assets/double.png'
+import Triple from '../assets/triple.png'
 
 const Card = () => {
   return (
@@ -16,7 +16,7 @@ const Card = () => {
                 <p className='py-2 border-b mx-8'>1 Granted User</p>
                 <p className='py-2 border-b mx-8'>Send upto 2GB</p>
             </div>
-            <button className='bg-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3'>Start Trial</button>
+            <button className='bg-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3 hover:text-[#00df9a] hover:bg-black hover:scale-105 duration-300' >Start Trial</button>
         </div>
         <div className='w-full shadow-xl bg-slate-100 flex flex-col m-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
             <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="/" />
@@ -27,7 +27,7 @@ const Card = () => {
                 <p className='py-2 border-b mx-8'>1 Granted User</p>
                 <p className='py-2 border-b mx-8'>Send upto 2GB</p>
             </div>
-            <button className='bg-black text-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3'>Start Trial</button>
+            <button className='bg-black text-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3 hover:bg-[#00df9a] hover:text-black hover:scale-105 duration-300'>Start Trial</button>
         </div>
         <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="/" />
@@ -38,7 +38,7 @@ const Card = () => {
                 <p className='py-2 border-b mx-8'>1 Granted User</p>
                 <p className='py-2 border-b mx-8'>Send upto 2GB</p>
             </div>
-            <button className='bg-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3'>Start Trial</button>
+            <button className='bg-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3 hover:text-[#00df9a] hover:bg-black hover:scale-105 duration-300'>Start Trial</button>
         </div>
       </div>
     </div>

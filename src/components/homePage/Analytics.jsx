@@ -1,5 +1,5 @@
 import React from "react";
-import Laptop from "../components/assets/laptop.jpg";
+import Laptop from "../assets/laptop.jpg";
 
 function Analytics() {
   return (
@@ -15,7 +15,7 @@ function Analytics() {
             architecto minima? Laboriosam magnam nisi minima voluptatem soluta.
             Quam eaque officia dolorum.
           </p>
-          <button className="bg-black text-[#00df9a] w-[180px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">Get Started</button>
+          <button className="bg-black text-[#00df9a] w-[180px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:scale-105 duration-300">Get Started</button>
 
         </div>
       </div>

@@ -1,21 +1,18 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Analytics from './components/Analytics';
-import Newsletter from './components/Newsletter';
-import Card from './components/Card';
+
 import Footer from './components/Footer';
+import Home from './routes/homePage/Home';
+import Country from './components/Country';
 
 
 function App() {
   return (
     <div className="App">
      <Navbar />
-     <Hero />
-     <Analytics />
-     <Newsletter />
-     <Card />
+     <Home />
      <Footer />
+     <Country />
     </div>
   );
 }

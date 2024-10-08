@@ -11,19 +11,19 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">React.</h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] ">React.</h1>
         <p className="py-4">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic impedit
           dolores nostrum magni exercitationem rem praesentium excepturi
           explicabo vitae. Aliquid tempora possimus earum quod? Esse veritatis
           natus totam porro numquam.
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+        <div className="flex justify-between md:w-[75%] my-6  duration-300">
+          <FaFacebookSquare className="hover:text-blue-700 text-3xl hover:cursor-pointer hover:scale-105"/>
+          <FaInstagram className="hover:text-pink-600 text-3xl hover:cursor-pointer hover:scale-105" />
+          <FaTwitterSquare className="hover:text-black hover:bg-slate-300 text-3xl hover:cursor-pointer hover:scale-105" />
+          <FaGithubSquare className="hover:text-black hover:bg-slate-300 text-3xl hover:cursor-pointer hover:scale-105" />
+          <FaDribbbleSquare className="hover:text-pink-300  hover:bg-pink-600 text-3xl hover:cursor-pointer hover:scale-105" />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
