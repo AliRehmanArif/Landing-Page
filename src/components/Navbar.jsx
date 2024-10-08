@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { FaReact } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -10,6 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto p-4 text-white">
+      <FaReact className='text-9xl mr-2 text-[#00df9a]'/>
       <h1 className="w-full text-3xl font-bold text-[#00df9a] hover:cursor-pointer">React.</h1>
       <ul className="hidden md:flex">
         <li className="mt-4"><a href="/" className="p-4 ">Home</a></li>
