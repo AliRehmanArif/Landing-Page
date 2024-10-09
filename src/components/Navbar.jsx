@@ -11,32 +11,74 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto p-4 text-white">
-      <FaReact className='text-9xl mr-2 text-[#00df9a]'/>
-      <h1 className="w-full text-3xl font-bold text-[#00df9a] hover:cursor-pointer">React.</h1>
+      <FaReact className="text-9xl mr-2 text-[#00df9a]" />
+      <h1 className="w-full text-3xl font-bold text-[#00df9a] hover:cursor-pointer">
+        React.
+      </h1>
       <ul className="hidden md:flex">
-        <li className="mt-4"><a href="/" className="p-4 ">Home</a></li>
-        <li className="mt-4"><a href="/" className="p-4 ">Company</a></li>
-        <li className="mt-4"><a href="/" className="p-4 ">Resources</a></li>
-        <li className="mt-4"><a href="/" className="p-4 ">About</a></li>
-        <li className="mt-4"><a href="/" className="p-4 ">Contact</a></li>
+        <li className="mt-4">
+          <a href="/" className="p-4 hover:text-[#00df9a]">
+            Home
+          </a>
+        </li>
+        <li className="mt-4">
+          <a href="/" className="p-4 hover:text-[#00df9a]">
+            Company
+          </a>
+        </li>
+        <li className="mt-4">
+          <a href="/" className="p-4 hover:text-[#00df9a]">
+            Resources
+          </a>
+        </li>
+        <li className="mt-4">
+          <a href="/" className="p-4 hover:text-[#00df9a]">
+            About
+          </a>
+        </li>
+        <li className="mt-4">
+          <a href="/" className="p-4 hover:text-[#00df9a]">
+            Contact
+          </a>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
+        {!nav ? <AiOutlineClose size={20} className="hover:cursor-pointer"/> : <AiOutlineMenu size={20} className="hover:cursor-pointer"/>}
       </div>
       <div
         className={
           !nav
-          ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-800 bg-black md:hidden"
-          : "fixed left-[-100%]"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-800 bg-black md:hidden"
+            : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">React.</h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 hover:cursor-pointer">React.</h1>
         <ul className="uppercase p-4">
-          <li className="p-4 border-r-gray-600">Home</li>
-          <li className="p-4 border-r-gray-600">Company</li>
-          <li className="p-4 border-r-gray-600">Resources</li>
-          <li className="p-4 border-r-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="mt-4">
+            <a href="/" className="p-4 hover:text-[#00df9a]">
+              Home
+            </a>
+          </li>
+          <li className="mt-4">
+            <a href="/" className="p-4 hover:text-[#00df9a]">
+              Company
+            </a>
+          </li>
+          <li className="mt-4">
+            <a href="/" className="p-4 hover:text-[#00df9a]">
+              Resources
+            </a>
+          </li>
+          <li className="mt-4">
+            <a href="/" className="p-4 hover:text-[#00df9a]">
+              About
+            </a>
+          </li>
+          <li className="mt-4">
+            <a href="/" className="p-4 hover:text-[#00df9a]">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Card = () => {
             </div>
             <button className='bg-[#00df9a] rounded-md font-medium w-[180px] my-6 mx-auto px-auto py-3 hover:text-[#00df9a] hover:bg-black hover:scale-105 duration-300' >Start Trial</button>
         </div>
-        <div className='w-full shadow-xl bg-slate-100 flex flex-col m-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
+        <div className="w-full shadow-xl bg-slate-100 flex flex-col my-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
             <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Double} alt="/" />
             <h2 className='text-2xl font-bold text-center py-8'>Patnership</h2>
             <p className='text-4xl font-bold text-center'>$99.9</p>
